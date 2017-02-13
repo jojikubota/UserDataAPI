@@ -1,0 +1,9 @@
+[database]
+file_name = "app3.db"
+
+# REST API Port
+port_num = 4003
+
+[replication]
+rpc_server_port_num = 3003
+replica = [ "0.0.0.0:3001", "0.0.0.0:3002" ]
